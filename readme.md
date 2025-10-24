@@ -4,31 +4,31 @@ EATD_program 是基于预训练音频模型的EATD-Corpus分类项目，主要�
 
 #### src：
 
-prepare_data.py将EATD音频文件按测试集：训练集=2:8的方式进行划分；
+  prepare_data.py将EATD音频文件按测试集：训练集=2:8的方式进行划分；
 
-dataset.py负责对数据集的频波形、采样率和标签进行处理；
+  dataset.py负责对数据集的频波形、采样率和标签进行处理；
 
-train_clap.py是主要的模型训练程序；
+  train_clap.py是主要的模型训练程序；
 
-train_clap_test.py是当时想尝试另一种方法，但没有成功的；
+  train_clap_test.py是当时想尝试另一种方法，但没有成功的；
 
-test.py是配置环境时用的临时文件。
+  test.py是配置环境时用的临时文件。
 
 #### EATD-Corpus：
 
-数据集源文件
+  数据集源文件
 
 #### CLAP:
 
-包括完整的CLAP模型
+  包括完整的CLAP模型
 
 #### data：
 
-对数据集进行划分之后的文件，包括train和test两个部分
+  对数据集进行划分之后的文件，包括train和test两个部分
 
 #### requirements.txt：
 
-环境
+  环境
 
 ----
 
